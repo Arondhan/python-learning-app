@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardView">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BegPY"
+            android:textAllCaps="false"
+            android:fontFamily="@font/nasal"
+            android:textSize="24sp"
+            android:textColor="@color/steel_blue_dark"
+            android:layout_margin="20dp"/>
+
+        <GridLayout
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+            //1 LESSON
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson1card"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/steel_blue"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="18dp"
+                        android:src="@drawable/pythoncard" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Что такое Python?"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            //2 LESSON
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson2card"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/steel_blue"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="18dp"
+                        android:src="@drawable/coding" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Введение в написание \n            программ"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            //3 LESSON
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson3card"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/steel_blue"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="18dp"
+                        android:src="@drawable/calculating" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Математические \n        функции"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            // 4 LESSON
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson4card"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/steel_blue"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="18dp"
+                        android:src="@drawable/cyclecard" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Циклы"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            //5 LESSON
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson5card"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/steel_blue"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="18dp"
+                        android:src="@drawable/innovation" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Функции"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            // 6 LESSON
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lesson6card"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/steel_blue"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="18dp"
+                        android:src="@drawable/object" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Классы и объекты"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+        <GridLayout
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/lesson6card"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/steel_blue"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/lesson7card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/binary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Списки и массивы"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+        <Button
+            android:id="@+id/Home"
+            android:layout_width="58dp"
+            android:textAllCaps="false"
+            android:background="@color/steel_blue"
+            android:fontFamily="@font/nasal"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:text="Home" />
+
+    </LinearLayout>
+</ScrollView>

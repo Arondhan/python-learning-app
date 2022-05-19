@@ -1,0 +1,183 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BegPy</string>
+    <string name="welcome">Welcome</string>
+    <string name="start_message">Start when you are ready</string>
+    <string name="user_name_hint">Name</string>
+    <string name="start_button">Start</string>
+    <string name="submit_button">Submit</string>
+    <string name="lesson3textbutton">Основные математические
+        функции</string>
+
+    // 3 Урок
+    <string name="cellfloor"><font color='#4682B4'>Ceil() и Floor()</font> — функции общего назначения. Функция ceil округляет число до ближайшего целого в большую сторону. Функция floor убирает цифры десятичных знаков. Обе принимают десятичное число в качестве аргумента и возвращают целое число.</string>
+
+    <string name="fabs">Функция <font color='#4682B4'>Fabs()</font>используется для вычисления абсолютного значения числа. Если число содержит любой отрицательный знак <font color='#4682B4'>(-)</font>, то функция убирает его и возвращает положительное дробное число.</string>
+
+    <string name="primer1"><font color='#4682b4'> import</font> math \n number = <font color='#9b2d30'>-8.10</font>\n print(<font color='#19ff19'>"Верхний предел 8.10 это:"</font>math.ceil(number))\n print(<font color='#19ff19'>"Нижний предел предел 8.10 это:"</font>math.floor(number))\n <font color='#808080'>Вывод</font>\n Верхний предел 8.10 это: 9\nНижний предел 8.10 это: 8
+    </string>
+
+
+    <string name="primer2"><font color='#4682B4'>import </font>math \n
+        number = <font color='#9b2d30'>-8.10</font>\n
+        <font color='#4682B4'>print</font>(math.fabs(number))\n
+        <font color='#808080'>Вывод</font>\n
+        8.1
+    </string>
+
+    <string name="primer3"><font color='#4682b4'> import</font> math \n
+        print(<font color='#19ff19'>"Факториал числа:"</font>,math.factorial(number))\n
+        <font color='#808080'>Вывод</font>\n
+        Факториал числа 120
+    </string>
+
+
+    <string name="mathpow"><font color='#4682B4'>Pow()</font> Используется для нахождение степени числа. Синтаксис функции pow(Base, Power). Она принимает два аргумента: основание и степень.</string>
+
+
+    <string name="primer4"><font color='#4682b4'> import</font> math\n
+        print(math.<font color='#19ff19'>pow</font>(<font color='#9b2d30'>5,4</font>))\n
+        <font color='#808080'>Вывод</font>\n
+        625.0
+    </string>
+
+
+    //4 урок
+    <string name="ciklfor">В Python цикл начинается с ключевого слова <font color='#4682b4'>for</font>, за которым следует произвольное имя переменной, которое будет хранить значения следующего объекта последовательности. Общий синтаксис <font color='#4682b4'>for...in</font> в python выглядит следующим образом:</string>
+    <string name="primer5"><font color='#4682b4'>for</font> <font color='#19ff19'>\"переменная"</font> <font color='#4682b4'>in</font> <font color='#19ff19'>\"последовательность":</font> \n
+    <font color='#19ff19'>\"действиe"</font> \n
+    <font color='#4682b4'>else:</font> \n
+    <font color='#19ff19'>\"действиe"</font>
+</string>
+
+    <string name="prerivaniye">Если в программе цикл <font color='#4682b4'>for</font> должен быть прерван оператором <font color='#4682b4'>break</font>, цикл будет завершен, и поток программы будет продолжен без выполнения действий из <font color='#4682b4'>else</font></string>
+    <string name="primer6">t_ints =(<font color='#9b2d30'>1, 2, 3, 4, 5</font>)\n
+         <font color='#4682b4'>for</font> i <font color='#4682b4'>in</font> t_ints:\n
+             <font color='#4682b4'>if</font> i ==<font color='#9b2d30'>3</font> \n
+                 <font color='#4682b4'>break</font>
+        println (i) \n
+        <font color='#808080'>Вывод</font>\n
+        1
+        2
+    </string>
+
+    <string name="primer7">i=<font color='#9b2d30'>0</font>\n
+        <font color='#4682b4'>while</font>(i<![CDATA[<]]>10):\n
+        i = i + <font color='#9b2d30'>1</font>\n
+        <font color='#4682b4'>if</font>(i==<font color='#9b2d30'>5</font>):\n
+        <font color='#4682b4'>continue</font>\n
+        print(i)
+        <font color='#808080'>Вывод</font>\n
+        Выведутся все числа от 1 до 10, кроме 5
+    </string>
+
+
+    //lesson 5
+    <string name="defpython">Функция в python - объект, принимающий аргументы и возвращающий значение. Обычно функция определяется с помощью инструкции <font color='#4682b4'>def</font>\n Инструкция return говорит, что нужно вернуть значение. В нашем случае функция возвращает сумму x и y.
+    </string>
+    <string name="primer8"> <font color='#19ff19'>def </font><font color='#4682b4'>add</font>(x,y): \n
+     <font color='#4682b4'>return</font> x + y</string>
+
+
+    <string name="primer9"><font color='#4682b4'>add</font>(1,10) \n
+     11
+      <font color='#4682b4'>add</font>("abc","def") \n
+        abcdef
+    </string>
+
+    <string name="primer10"><font color='#19ff19'>def</font> <font color='#4682b4'>myfunc</font>(n):\n
+       <font color='#19ff19'>def</font> <font color='#4682b4'>myfunc</font>(x): \n
+        <font color='#4682b4'>return</font> x + n \n
+        <font color='#4682b4'>return</font> <font color='#4682b4'>myfunc</font>
+
+    </string>
+
+    <string name="primer11"><font color='#19ff19'>def</font> <font color='#4682b4'>func</font>():\n
+    <font color='#19ff19'>pass</font>
+
+    <font color='#808080'>Вывод</font>\n
+    Фунция примет значение NONE
+    </string>
+
+    <string name="primer12"><font color='#19ff19'>def</font> <font color='#4682b4'>func</font>(a,b,c=2): <font color='#808080'> \n c - необязательный аргумент</font> \n
+    <font color='#4682b4'>return</font> a + b + c \n
+    </string>
+
+
+    // lesson 6
+
+
+    <string name="primer13"> <font color='#4682b4'>class </font>ClassName: \n
+    <font color='#19ff19'>"краткое описание класса (необязательно)"</font> \n
+    <font color='#808080'>Код...</font>
+</string>
+
+    <string name="atribut">Атрибут — это элемент класса. Например, у прямоугольника таких 2: ширина <font color='#4682b4'>(width) </font> и высота <font color='#4682b4'>(height) </font>.</string>
+
+    <string name="konstrukt">Конструктор — уникальный <font color="#4682b4">метод класса </font>, который называется <font color="#4682b4">__init__ </font>. \n
+    Первый параметр конструктора во всех случаях <font color="#4682b4">self </font> (ключевое слово, которое ссылается на сам класс). \n
+    Конструктор нужен для создания объекта.\n
+Конструктор передает значения аргументов свойствам создаваемого объекта.\n
+    В одном классе всегда только один конструктор.\n
+Если класс определяется не конструктором, Python предположит, что он наследует конструктор родительского класса.
+</string>
+
+    <string name="classprimer"> <font color='#4682b4'>class </font> Person:\n
+        <font color='#4682b4'>def</font> <font color='#9b2d30'>__init__</font> (self, name, age=<font color='#9b2d30'>1</font>, gender=<font color='#19ff19'>"Male"</font>):\n
+        self.name = name\n
+        self.age = age \n
+        self.gender= gender \n
+        <font color='#4682b4'>def</font> <font color='#9b2d30'>showInfo</font> (self) \n
+        <font color='#4682b4'>print </font>(<font color='#19ff19'>"Name: "</font>, self.name)\n
+        <font color='#4682b4'>print </font>(<font color='#19ff19'>"Age: "</font>, self.age)\n
+        <font color='#4682b4'>print </font>(<font color='#19ff19'>"Gender: "</font>, self.gender)\n
+    </string>
+
+    <string name="usageclassprimer"><font color='#4682b4'>from </font> person <font color='#4682b4'>import </font> Person\n
+    aimee = Person(<font color='#19ff19'>"Amiee"</font>, 21,<font color='#19ff19'>"Female: "</font> ) \n
+        aimee.showInfo()\n
+        <font color='#4682b4'>print</font>(" <font color='#19ff19'>" --------------- "</font> ")
+
+        Вывод\n
+        <font color='#808080'>
+        Name: Amiee \n
+        Age: 21 \n
+        Gender: Female
+        </font>
+
+    </string>
+
+
+
+    //lesson 7
+    <string name="spisokprimer">list = [<font color='#9b2d30'>31, 60, 19, 12</font>] \n
+        <font color='#4682b4'>print</font>(list) \n
+        <font color='#4682b4'>print</font>(<font color='#4682b4'>type</font>(list)) \n
+
+        Вывод\n
+        <font color='#808080'>
+        [31, 60, 19, 12]\n
+        class "list"
+        </font>
+
+
+</string>
+
+    <string name="bibliotekaformassiv">
+<font color='#4682b4'>import </font> array <font color='#4682b4'>as </font> arr \n
+<font color='#4682b4'>or </font>\n
+<font color='#4682b4'>import </font> numpy <font color='#4682b4'>as </font> np \n
+</string>
+
+    <string name="massivprimer">
+        <font color='#4682b4'>import </font> array <font color='#4682b4'>as </font> arr\n
+        array_1 = arr.<font color='#4682b4'>array</font>(<font color='#19ff19'>"i"</font>, [<font color='#9b2d30'>31, 60, 19, 12</font>])\n
+       <font color='#4682b4'>print</font>(array_1)\n
+        <font color='#4682b4'>print</font>(<font color='#4682b4'>type</font>(array_1)) \n
+        <font color='#808080'> Вывод\n</font>
+        array(<font color='#19ff19'>"i"</font>, [<font color='#9b2d30'>31, 60, 19, 12</font>])\n
+        <font color='#808080'> class "array.array"</font>
+
+    </string>
+
+
+</resources>
