@@ -1,1 +1,1 @@
-Default
+Kotlin based Python learning app
